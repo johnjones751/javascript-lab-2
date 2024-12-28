@@ -1,4 +1,4 @@
-"use script";
+"use strict";
 
 function determineSmallestNum(a, b, c) {
   if (a < b && a < c) {
@@ -9,3 +9,5 @@ function determineSmallestNum(a, b, c) {
     alert(c + "is the smallest");
   }
 }
+
+determineSmallestNum(4, 6, 1);
